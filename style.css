@@ -311,6 +311,103 @@ img {
     }
 }
 
+/*--------HM-SERVICES--------*/
+.hm-services{
+    padding: 5rem 0;
+    background: #2b2b2b;
+}
+.hm-services .hm-services__item i{
+    color: #ffa700;
+    font-size:6rem;
+}
+
+
+
+/*--------HM-ABOUT--------*/
+.hm-about{
+    background: #ffffff;
+    padding: 5rem 0;
+}
+
+.hm-about .hm-about__wrapper{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center;
+}
+
+.hm-about .hm-about__wrapper .hm-about__text{
+    text-align: justify;
+}
+
+.hm-about .hm-about__wrapper .hm-about__text h4{
+    color: #ffa700;
+    margin: 5rem 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.hm-about .hm-about__wrapper .hm-about__text p{
+    color: 2b2b2b;
+}
+
+.hm-about .hm-about__wrapper img{
+    order: -1;
+}
+
+@media screen and (max-width:500px){
+    .hm-about .hm-about__wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .hm-about .hm-about__wrapper .hm-about__text h4{
+        text-align: center;
+        margin: 4rem 0;
+    }
+    .hm-about .hm-about__wrapper .hm-about__text{
+        padding: 0 3rem;
+    }
+    .hm-about .hm-about__wrapper img{
+        width: 30rem;
+        margin: 0 auto;
+    }
+}
+
+
+/*--------HM-CONTACT--------*/
+.hm-contact{
+    background: #ffa700;
+    padding: 5rem 0;
+}
+
+.hm-contact .hm-contact__wrapper{
+    text-align: center;
+}
+
+.hm-contact .hm-contact__wrapper .hm-contact__text{
+    justify-content: center;
+}
+
+.hm-contact .hm-contact__wrapper .hm-contact__text h4{
+    font-weight: 1000;
+    font-size: 24px;
+    color: #000000;
+    
+}
+
+.hm-contact .hm-contact__wrapper .hm-contact__text p{
+    font-size: 14px;
+    margin: 2rem;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 500px){
+    .hm-contact .hm-contact__wrapper .hm-contact__text h4{ 
+        line-height: 2.5rem;
+    }
+}
+
+
+
 
 /*------REPEATABLE PATTERNS------*/
 .btn{
@@ -334,6 +431,8 @@ img {
 .btn.dark{
     background: #2b2b2b;
     color: #ffffff;
+    font-weight: 600;
+    width: 130px;
 }
 
 .btn.dark:hover{
