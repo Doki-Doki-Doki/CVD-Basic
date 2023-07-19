@@ -673,16 +673,55 @@ img {
     
 
 /*---------ABOUT---------*/
+
+/*--BANNER--*/
 .about__banner{
     background: #ffffff;
     padding-top: 13rem;
-    padding-botton: 5rem;
+    padding-bottom: 5rem;
 }
 .about__banner__wrapper{
     display: flex;
+    gap: 27.5rem;
+    align-items: center;
 }
-
-
+.about__banner__wrapper__text h1{
+    font-size: 10rem;
+    color: #ffa700;
+    font-weight: 750;
+    margin-bottom:2rem;    
+}
+.about__banner__wrapper__text p{
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+.about__banner__wrapper__text ul{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin-top: 5rem;
+}
+.about__banner__wrapper__text ul li{
+    font-size: 2.5rem;
+}
+.about__banner__wrapper__text ul li a{
+    color:#ffa700;
+}
+/*--ABT-PROJECTS--*/
+.abt-projects{
+    background: red;
+}
+.abt-projects .abt-projects__wrapper{
+    display: block;
+}
+.abt-projects .abt-projects__row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.abt-projects .abt-projects__row2{
+    display: flex;
+}
 
 
 /*------REPEATABLE PATTERNS------*/
