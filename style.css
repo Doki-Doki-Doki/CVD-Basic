@@ -556,9 +556,7 @@ img {
 }
 
 /*-------UPDATES-LEFT-------*/
-.updates .updates__left__item:
-
--child{
+.updates .updates__left__item:first-child{
     padding-bottom: 5rem;
     border-bottom: 1px solid gray;
 }
@@ -673,7 +671,20 @@ img {
     }
 }
     
-    
+
+/*---------ABOUT---------*/
+.about__banner{
+    background: #ffffff;
+    padding-top: 13rem;
+    padding-botton: 5rem;
+}
+.about__banner__wrapper{
+    display: flex;
+}
+
+
+
+
 /*------REPEATABLE PATTERNS------*/
 .btn{
     display:inline-block;
