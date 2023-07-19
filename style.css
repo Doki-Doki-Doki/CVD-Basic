@@ -358,29 +358,24 @@ img {
     background: #ffffff;
     padding: 5rem 0;
 }
-
 .hm-about .hm-about__wrapper{
     display: grid;
     grid-template-columns: 2fr 2fr;
     align-items: center;
 }
-
 .hm-about .hm-about__wrapper .hm-about__text{
     text-align: justify;
 }
-
 .hm-about .hm-about__wrapper .hm-about__text h4{
     color: #ffa700;
     margin: 5rem 0;
     font-size: 2.5rem;
     font-weight: 800;
 }
-
 .hm-about .hm-about__wrapper .hm-about__text p{
     color:2b2b2b;
     margin-top:2rem;
 }
-
 .hm-about .hm-about__wrapper img{
     order: -1;
 }
@@ -467,40 +462,76 @@ img {
 }
 
 
-
 /*--------HM-CONTACT--------*/
 .hm-contact{
     background: #ffa700;
     padding: 5rem 0;
 }
-
 .hm-contact .hm-contact__wrapper{
     text-align: center;
 }
-
 .hm-contact .hm-contact__wrapper .hm-contact__text{
     justify-content: center;
 }
-
 .hm-contact .hm-contact__wrapper .hm-contact__text h4{
     font-weight: 1000;
     font-size: 24px;
-    color: #000000;
-    
+    color: #000000;  
 }
-
 .hm-contact .hm-contact__wrapper .hm-contact__text p{
     font-size: 14px;
     margin: 2rem;
     margin-bottom: 4rem;
 }
-
 @media screen and (max-width: 500px){
     .hm-contact .hm-contact__wrapper .hm-contact__text h4{ 
         line-height: 2.5rem;
     }
 }
 
+/*------FOOTER------*/
+.footer{
+    background: #2b2b2b;
+    padding: 1rem 0;
+}
+.footer p{
+    color: gray;
+}
+.footer .footer__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .footer__left{
+    display: flex;
+    gap: 4rem;
+    align-items: center;
+}
+.footer .footer__left ul{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+.footer .footer__left ul li a{
+    font-size: 2.5rem;
+    color: gray;
+}
+.footer .footer__left ul li:hover a{
+    color: #ffa700;
+}
+.footer .footer__left ul li:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width: 500px){
+    .footer .footer__left{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .footer .footer__wrapper{
+        flex-direction:column;
+        gap:1rem;
+    }
+}
 
 
 
