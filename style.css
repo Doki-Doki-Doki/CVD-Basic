@@ -828,6 +828,10 @@ img {
 .consection .consection__left table{
     margin-bottom: 3rem;
 }
+.consection .consection__left table tr td{
+    height: 6rem;
+    vertical-align: middle;
+}
 .consection .consection__left table tr:first-child td:first-child{
     color: #ffa700;
     padding-right: 4rem;
@@ -836,12 +840,10 @@ img {
 .consection .consection__left table tr:nth-child(2) td:first-child{
     color: #ffa700;
     font-size: 3rem;
-    vertical-align: middle;
 }
 .consection .consection__left table tr:last-child td:first-child{
     color: #ffa700;
     font-size: 3rem;
-    vertical-align: middle; 
 }
 .consection .consection__left table tr:first-child td:last-child{
     color: #ffffff;
@@ -863,6 +865,10 @@ img {
 }
 .consection .consection__left ul li a{
     color: #ffffff;
+}
+.consection .consection__right form{
+    display: flex;
+    flex-direction: column;
 }
 
 
