@@ -680,6 +680,11 @@ img {
 }
 .about__banner__wrapper{
     display: flex;
+    flex-direction: column;
+}
+.about__banner__wrapper__content{
+    display: flex;
+    flex-direction: row;
     gap: 27.5rem;
     align-items: center;
 }
@@ -765,6 +770,15 @@ img {
         grid-gap: 8rem;
         margin: 0 2rem;
     }
+    .about__banner .chevron{
+        margin: unset;
+    }
+    .about__banner .about__banner__wrapper__content{
+        display: unset;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 4rem;
+    }
     .about__banner .about__banner__wrapper h2{
         text-align: center;
         font-size: 8rem;
@@ -816,8 +830,9 @@ img {
 .consection .consection__wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 25rem;
+    grid-gap: 25rem;    
 }
+
 .consection .consection__left{
     /* padding-right: 15rem; */
     padding-top: 1.5rem;
@@ -972,15 +987,8 @@ img {
     /* padding-left: 100rem; */
     margin-top: 6rem
 }
-.servicespage__text p:nth-child(2){
-    background: blue;
-}
 .servicespage__text p:nth-child(3){
-    background: greenyellow;
     margin-top: 1.5rem;
-}
-.servicespage__text p:nth-child(4){
-    background: red;
 }
 .servicespage__text h3{
     font-size: 2.5rem;
@@ -1016,7 +1024,7 @@ img {
 @media screen and (max-width: 500px){
     .servicespage{
         display: flex;
-        flex-direction: column;
+        flex-direction: column; 
     }
     .servicespage__body{
         display: flex;
@@ -1026,26 +1034,35 @@ img {
         display: flex;
         flex-direction: column;
     }
-    .servicespage__content .servicespage__text{
+    .servicespage__text{
         padding-right: unset;
         padding-top: 10rem;
         text-align: center;
     }
     .servicespage__text p:nth-child(4){
-        text-align: center;
+        text-align: justify;
     }
     .servicespage__text h3{
         text-align: center;
     }
-    .servicespage__content .servicespage__text h2{
+    .servicespage__text h2{
         text-align: center;
+        line-height: 4rem;
     }
     .servicespage__content .servicespage__text p{
         width: 40rem;
+        text-align: justify;
+    }
+    .servicespage__content .servicespage__text p:nth-child{
         text-align: center;
     }
+    .servicespage__text h3{
+        text-align: justify;
+    }
+    .servicespage__text h5{
+        text-align: justify;
+    }
     .servicespage__body img{
-        width: 40rem;
         order: -1;
     }
     .servicespage__body:nth-child(2) .servicespage__text{
@@ -1062,6 +1079,9 @@ img {
     .servicespage__body:last-child .servicespage__text{
         padding-right: unset;
         order: 1;
+    }
+    .servicespage__body img{
+        width: 35rem;
     }
 }
 
