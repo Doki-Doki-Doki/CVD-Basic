@@ -253,11 +253,9 @@ img {
     .header .header__nav ul li:hover a:after{
         width: 0%;
     }
-
     .header .header__nav ul li:hover{
         background:gray;
     }
-
     .header .toggle__menu{
         display: block;
     }
@@ -682,7 +680,7 @@ img {
     display: flex;
     flex-direction: column;
 }
-.about__banner__wrapper__content{
+.about__banner__wrapper__content{  
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 27.5rem;
@@ -1030,7 +1028,7 @@ img {
         flex-direction: column;
     }
     .servicespage__content{
-        display: flex;
+        display: flexx;
         flex-direction: column;
     }
     .servicespage__text{
