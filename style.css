@@ -683,10 +683,9 @@ img {
     flex-direction: column;
 }
 .about__banner__wrapper__content{
-    display: flex;
-    flex-direction: row;
-    gap: 27.5rem;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 27.5rem;
 }
 .about__banner__wrapper__text h2{
     font-size: 10rem;
