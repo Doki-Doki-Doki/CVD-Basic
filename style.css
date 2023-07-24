@@ -992,7 +992,7 @@ img {
     font-weight: 600;
     color: #ffa700;
 }.servicespage__text h5{
-    max-width: 12rem;
+    /* max-width: 12rem; */
     font-size: 1rem;
 }
 /*body2*/
@@ -1050,14 +1050,15 @@ img {
         width: 40rem;
         text-align: justify;
     }
-    .servicespage__content .servicespage__text p:nth-child{
+    .servicespage__text p:nth-child(4){
         text-align: center;
     }
     .servicespage__text h3{
-        text-align: justify;
+        text-align: center;
     }
     .servicespage__text h5{
-        text-align: justify;
+        text-align: center;
+        margin-right: unset;
     }
     .servicespage__body img{
         order: -1;
@@ -1079,6 +1080,10 @@ img {
     }
     .servicespage__body img{
         width: 35rem;
+    }
+    .servicespage__price h5    {
+        text-align: center;
+        justify-content: center;
     }
 }
 
